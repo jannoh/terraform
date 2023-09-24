@@ -9,7 +9,7 @@ output "instance_publicIP" {
 
 
 # EC2 Instance Public DNS
-output "instance_publicIP" {
+output "instance_publicDNS" {
   description = "EC2 Instance Public DNS"
   value       = aws_instance.myec2vm.public_dns
 }
