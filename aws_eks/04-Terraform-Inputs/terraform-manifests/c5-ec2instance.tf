@@ -12,3 +12,4 @@ resource "aws_instance" "myec2vm" {
     Name = "EC2 Demo 2"
   }
 }
+
